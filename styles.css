@@ -1,0 +1,32 @@
+h1 { 
+border: 1px solid black;
+position: static;
+
+ }
+
+
+body {
+	background-color: azure;
+
+}
+
+footer {
+	border: 1px solid black;
+	text-align: center;
+}
+
+@media only screen and (max-width: 980px) {
+    body {
+        background-color: red;
+    }
+
+ @media only screen and (max-width: 768px) {
+    body {
+        background-color: #ccc;
+    }
+
+@media only screen and (max-width: 640px) {
+    body {
+        background-color: #fff;
+        position: static;
+    }
